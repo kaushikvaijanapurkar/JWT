@@ -25,7 +25,7 @@ public class JWTExample {
       //Create the JWT Claims Object
       String[] claimArray = new String[4];
       claimArray[0] = "3MVG9od6vNol.eBhpIT74nODNJfq3w_KHGcRLJE0UCZ6p6WNbAlBtV54LsqvXpVgLQyroyAgeQmD9caJsckyj";
-      claimArray[1] = "quotation.tool@allianz.fom.qa";
+      claimArray[1] = "quotation.tool@allianz.com.qa";
       claimArray[2] = "https://test.salesforce.com";
       claimArray[3] = Long.toString( ( System.currentTimeMillis()/1000 ) + 300);
 
